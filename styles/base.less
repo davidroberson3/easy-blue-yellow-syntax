@@ -71,6 +71,10 @@ atom-text-editor {
     &.syntax--new {
         color: @syntax-new-color;
     }
+
+    &.syntax--assignment {
+        color: @syntax-assignment-color;
+    }
   }
 
   &.syntax--other.syntax--special-method {
@@ -107,7 +111,7 @@ atom-text-editor {
 
   &.syntax--language {
       &.syntax--boolean {
-          color: @syntax-boolean-color;
+        //   color: @syntax-boolean-color;
       }
   }
 }
@@ -195,7 +199,7 @@ atom-text-editor {
 
 .syntax--support {
   &.syntax--class {
-    color: @light-orange;
+    color: @orange;
   }
 
   &.syntax--function  {
