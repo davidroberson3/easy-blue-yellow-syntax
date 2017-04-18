@@ -1,8 +1,51 @@
 {
-  "name": "easy-blue-yellow-syntax",
-  "theme": "syntax",
-  "version": "0.1.1",
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/g0/h7swqbqj1qn6bvrd79qst2g80000gn/T/d-117317-5739-eq8fj.4vjm75vcxr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/g0/h7swqbqj1qn6bvrd79qst2g80000gn/T/d-117317-5739-eq8fj.4vjm75vcxr/package.tgz",
+        "spec": "/private/var/folders/g0/h7swqbqj1qn6bvrd79qst2g80000gn/T/d-117317-5739-eq8fj.4vjm75vcxr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/g0/h7swqbqj1qn6bvrd79qst2g80000gn/T/apm-install-dir-117317-5739-tx0o4v.zgi53o9a4i"
+    ]
+  ],
+  "_from": "../d-117317-5739-eq8fj.4vjm75vcxr/package.tgz",
+  "_id": "easy-blue-yellow-syntax@0.1.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/easy-blue-yellow-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/g0/h7swqbqj1qn6bvrd79qst2g80000gn/T/d-117317-5739-eq8fj.4vjm75vcxr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/g0/h7swqbqj1qn6bvrd79qst2g80000gn/T/d-117317-5739-eq8fj.4vjm75vcxr/package.tgz",
+    "spec": "/private/var/folders/g0/h7swqbqj1qn6bvrd79qst2g80000gn/T/d-117317-5739-eq8fj.4vjm75vcxr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117317-5739-eq8fj.4vjm75vcxr/package.tgz",
+  "_shasum": "f80eedd2f2e596038df62e2d2360841f331bc193",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/g0/h7swqbqj1qn6bvrd79qst2g80000gn/T/d-117317-5739-eq8fj.4vjm75vcxr/package.tgz",
+  "_where": "/private/var/folders/g0/h7swqbqj1qn6bvrd79qst2g80000gn/T/apm-install-dir-117317-5739-tx0o4v.zgi53o9a4i",
+  "bugs": {
+    "url": "https://github.com/davidroberson3/easy-blue-yellow-syntax/issues"
+  },
+  "dependencies": {},
   "description": "Easy on the eyes.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/davidroberson3/easy-blue-yellow-syntax#readme",
   "keywords": [
     "syntax",
     "theme",
@@ -10,9 +53,15 @@
     "blue",
     "yellow"
   ],
-  "repository": "https://github.com/davidroberson3/easy-blue-yellow-syntax",
   "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  }
+  "name": "easy-blue-yellow-syntax",
+  "optionalDependencies": {},
+  "readme": "# easy-blue-yellow-syntax theme\n\nEasy on the eyes.\n\n![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidroberson3/easy-blue-yellow-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.1"
 }
