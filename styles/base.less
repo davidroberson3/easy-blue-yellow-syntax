@@ -93,7 +93,7 @@ atom-text-editor {
 }
 
 .syntax--storage {
-  color: @purple;
+  color: @syntax-function-color;
 }
 
 .syntax--constant {
@@ -108,7 +108,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--color {
-    color: @green;
+    color: @syntax-color-color;
   }
 
   &.syntax--other.syntax--symbol {
@@ -177,7 +177,7 @@ atom-text-editor {
     }
 
     &.syntax--tag {
-        color: @red;
+        color: @syntax-tag-color;
     }
 
     &.syntax--heading,
@@ -221,11 +221,10 @@ atom-text-editor {
 }
 
 .syntax--entity {
-
     color: @syntax-variable-color;
 
   &.syntax--name.syntax--function {
-    color: @syntax-function-color;
+    color: @syntax-function-var-color;
   }
 
   &.syntax--other.syntax--inherited-class {
@@ -237,27 +236,27 @@ atom-text-editor {
   }
 
   &.syntax--name.syntax--tag {
-    color: @red;
+    color: @syntax-tag-color;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @yellow;
+    color: @syntax-attribute-name-color;
 
     &.syntax--id {
-      color: @blue;
+    //   color: @syntax-attribute-name-color;
     }
   }
 }
 
 .syntax--meta {
-    color: @syntax-punctuation-color;
+    color: @syntax-text-color;
 
-    &.syntax--arguments {
-        color: @syntax-variable-color;
-    }
+  &.syntax--arguments {
+    color: @syntax-variable-color;
+  }
 
   &.syntax--class {
-    color: @light-orange;
+    color: @syntax-css-class-color;
   }
 
   &.syntax--link {
@@ -275,6 +274,14 @@ atom-text-editor {
   &.syntax--separator {
     background-color: @gray;
     color: @syntax-text-color;
+  }
+
+  &.syntax--id {
+      color: @syntax-string-color;
+  }
+
+  &.syntax--brace {
+      color: @syntax-punctuation-color;
   }
 }
 
@@ -329,6 +336,33 @@ atom-text-editor {
   }
 }
 
+
+// HTML
+.syntax--text {
+    &.syntax--html {
+        color: @syntax-text-color;
+    }
+}
+
+.syntax--tag {
+    &.syntax--html {
+    color: @syntax-tag-color;
+    }
+}
+
+.syntax--meta {
+
+    &.syntax--any {
+        color: @syntax-punctuation-color;
+    }
+
+    &.syntax--between-tag-pair {
+        color: @syntax-tag-color;
+    }
+}
+
+
+// CSS
 .syntax--css {
   color: @syntax-text-color;
 
@@ -340,18 +374,22 @@ atom-text-editor {
       color: @syntax-this-color;
   }
 
-  .syntax--support.syntax--constant.syntax--color {
-    color: @orange;
-  }
-
-  .syntax--comment {
+  &.syntax--comment {
       color: @syntax-comment-color;
   }
 
-}
+  &.syntax--other.syntax--unit {
+      color: @syntax-css-unit-color;
+  }
 
-.syntax--color .syntax--css {
-  color: @green;
+  &.syntax--entity.syntax--other.syntax--attribute-name.syntax--class {
+      color: @syntax-css-class-color;
+  }
+
+  &.syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
+      color: @syntax-css-class-color;
+  }
+
 }
 
 
